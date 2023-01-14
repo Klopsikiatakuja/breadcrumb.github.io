@@ -1,0 +1,40 @@
+ .breadcrumb li{
+    display:inline;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    position:relative;
+    top:200px;
+    left:400px;
+    
+ }
+.breadcrumb li a {
+    text-decoration: none;
+    color:rgb(67, 65, 65);
+    padding:30px;
+    padding-left:60px;
+    padding-bottom: 31px;
+    margin-right: 40px;
+    text-align: right;
+background-color: rgb(193, 190, 190);
+}
+.breadcrumb li a:after{
+    content:"";
+    border-top: 40px solid transparent;
+    border-bottom:  40px solid transparent;
+    border-left: 40px solid rgb(193, 190, 190);
+    position:absolute;
+    top:-30px;
+    right:0px;
+    z-index: 1;
+}
+.breadcrumb li a:before{
+
+    content:"";
+    border-top: 45px solid transparent;
+    border-bottom:  45px solid transparent;
+    border-left: 45px solid rgb(255, 255, 255);
+    position:absolute;
+    top:-35px;
+    right:-45px;
+    z-index: 1;
+}
